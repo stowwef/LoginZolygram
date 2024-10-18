@@ -6,8 +6,11 @@ body{
 
 .titulo{
 
-    color: #ae8ff1;
+    font-size: 40px;
+    color: #bfa7f4;
     text-align: center;
+    text-shadow: #bda7e9 0px 0px 9px;
+    
 }
 
 .contenedor{
@@ -21,21 +24,13 @@ body{
    
 }
 
-
-.subtitulo{
-    font-style: italic;
-    font-size: 28px;
-    color: #5a2cbe;
-    text-align: center;
-    text-decoration:underline;
-}
-
 .logo{
 
-    height: 70px;
-    padding-left: 110px;
-    margin-left: 105px;
-
+    height: 100px;
+    padding-left: 100px;
+    margin-left: 90px;
+    padding-top:60px;
+    
 
 }
 
@@ -53,4 +48,48 @@ body{
     color: #6d54c4;
     font-size: 18px;
     display: block;
+}
+
+.buttoningresar{
+
+    border-radius:10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    color: aliceblue;
+    background-color:#6b4bb0;
+    border: #5a2cbe 2px solid;
+    font-weight: 600;
+}
+
+.buttoningresar:hover {
+
+    background: #8960e0;
+    
+}
+
+.buttoningresar:active {
+
+    background: #675298;
+    
+}
+.buttonregistrarse{
+
+    border-radius: 10px;
+    border: 2px solid #6640c0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #8051e6;
+    color: aliceblue;
+    cursor: pointer;
+    font-weight:600;
+
+}
+
+.buttonregistrarse:hover{
+
+    background: #5b3d9b;
+}
+
+.buttonregistrarse:active{
+
+    background: #8f61f2;
 }
