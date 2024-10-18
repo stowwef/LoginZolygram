@@ -1,0 +1,22 @@
+body{
+
+    background: #7349ce;
+
+}
+
+.contenedor{
+
+    width: 500px;
+    height: 200px;
+    background-image: linear-gradient(#b298e9 30%, #977dff 60%, #ae8ff1);
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px #5b3d9b;
+    border: 3px solid #9b7ae2  ;
+   
+}
+
+.formlabel{
+
+    color: #6d54c4;
+    display: block;
+}

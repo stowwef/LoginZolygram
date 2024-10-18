@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zolygram</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Bienvenidos a Zolygram</h1>
+</header>
+
+<main>
+    <div class="contenedor">
+        <h2>Login</h2>
+         <form action="zolygram.php" method="post">
+        
+            <p>
+                <label class="formlabel" for="usuario">Usuario </label>
+                <input type="text" name="usuario" id="usuario" placeholder="Ingrese Usuario " required >
+                
+            </p>
+
+            <p>
+                <label class="formlabel" for="password">Contraseña </label>
+                <input type="password" name="password" id="password" placeholder="Ingrese Contraseña " minlength="1"  required>
+            </p>
+               
+            <button type="submit">Ingresar</button>
+            <button type="button">Registrarte</button>
+         </form>
+    </div>
+</main>
+
+</body>
+</html>
