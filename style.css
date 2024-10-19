@@ -13,6 +13,11 @@ body{
     
 }
 
+.ClaseGeneral{
+
+    margin-right: 5px;
+
+}
 .contenedor{
 
     width: 500px;
@@ -21,33 +26,36 @@ body{
     border-radius: 30px;
     box-shadow: 10px 10px 10px #5b3d9b;
     border: 3px solid #9b7ae2  ;
+    margin: auto;
    
 }
+
 
 .logo{
 
     height: 100px;
-    padding-left: 100px;
-    margin-left: 90px;
-    padding-top:60px;
-    
+    margin-left: 190px;
+    padding-top:40px;    
 
 }
 
 .formcontent{
 
-    padding-left: 60px;
-    margin-left: 100px;
+    margin-left: 150px; 
+   
     
 }
 
 .formlabel{
 
     font-weight: bold;
-    font-style: italic;
     color: #6d54c4;
-    font-size: 18px;
+    font-size: 20px;
     display: block;
+    margin: 3px;
+    padding-left: 35px;
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic;
 }
 
 .buttoningresar{
@@ -59,6 +67,8 @@ body{
     background-color:#6b4bb0;
     border: #5a2cbe 2px solid;
     font-weight: 600;
+    width: 100px;
+    height: 25px;
 }
 
 .buttoningresar:hover {
@@ -81,6 +91,8 @@ body{
     color: aliceblue;
     cursor: pointer;
     font-weight:600;
+    width: 100px;
+    height: 25px;
 
 }
 
@@ -92,4 +104,37 @@ body{
 .buttonregistrarse:active{
 
     background: #8f61f2;
+}
+
+.forminput{
+
+    color: #5b3d9b;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 2px solid #856bbd;
+    outline:none;
+    height: 25px;
+
+}
+
+.forminput:focus{
+
+ border-color: #5c2ba0;
+ box-shadow: #5d347d87 0 0 0 0.2rem;
+
+}
+
+.ApartadoFooter{
+
+    margin-top: 100px;
+    text-align: center;
+    font-weight: 450;
+    color: #bfa7f4;
+}
+
+.ApartadoFooter :hover{
+
+    text-shadow: #d6cbed 0px 0px 9px;
+   
+
 }

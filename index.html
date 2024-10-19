@@ -1,40 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zolygram</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./img/Logogram.png" type="imagen/png" />
+  </head>
+  <body>
+    <header>
+      <h1 class="titulo">Zolygram</h1>
+    </header>
 
-<header>
-    <h1 class="titulo">Zolygram</h1>
-</header>
+    <main>
+      <div class="contenedor">
+        <div class="ClaseGeneral">
+          <div>
+            <img class="logo" src="./img/Logogram.png" alt="Logo de zolygram" />
+          </div>
 
-<main>
-    <div class="contenedor">
-
-        <div><img class="logo" src="./img/Logogram.png" alt="Logo de zolygram"></div>
-
-         <form class="formcontent" action="zolygram.php" method="post">
-        
+          <form class="formcontent" action="zolygram.php" method="post">
             <p>
-                <label class="formlabel" for="usuario">Usuario </label>
-                <input type="text" name="usuario" id="usuario" placeholder="Ingrese Usuario " required >
-                
+              <label class="formlabel" for="usuario">Usuario </label>
+              <input
+                class="forminput"
+                type="text"
+                name="usuario"
+                id="usuario"
+                placeholder="Ingrese Usuario "
+                required
+              />
             </p>
 
             <p>
-                <label class="formlabel" for="password">Contraseña </label>
-                <input type="password" name="password" id="password" placeholder="Ingrese Contraseña " minlength="1"  required>
+              <label class="formlabel" for="password">Contraseña </label>
+              <input
+                class="forminput"
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Ingrese Contraseña "
+                minlength="1"
+                required
+              />
             </p>
-               
-            <button  class="buttoningresar" type="submit">Ingresar</button>
+
+            <button class="buttoningresar" type="submit">Ingresar</button>
             <button class="buttonregistrarse" type="button">Registrarse</button>
-         </form>
-    </div>
-</main>
+          </form>
+        </div>
+      </div>
+    </main>
 
-</body>
+    <footer class="ApartadoFooter">
+        <p>&copy; Todo derechos reservados.</p>
+    </footer>
+  </body>
 </html>
