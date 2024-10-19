@@ -68,7 +68,7 @@ body{
     background-color:#6b4bb0;
     border: #5a2cbe 2px solid;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 1em;
     width: 100px;
     height: 25px;
 }
@@ -93,7 +93,7 @@ body{
     color: aliceblue;
     cursor: pointer;
     font-weight:600;
-    font-size: 15px;
+    font-size: 1em;
     width: 100px;
     height: 25px;
 
