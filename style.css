@@ -10,6 +10,7 @@ body{
     color: #bfa7f4;
     text-align: center;
     text-shadow: #bda7e9 0px 0px 9px;
+    cursor:default;
     
 }
 
@@ -130,6 +131,7 @@ body{
     text-align: center;
     font-weight: 450;
     color: #bfa7f4;
+    cursor: default;
 }
 
 .ApartadoFooter :hover{
